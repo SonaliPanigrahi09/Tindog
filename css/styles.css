@@ -1,0 +1,186 @@
+body
+{
+    font-family: "Montserrat";
+}
+
+/* title-section */
+
+h1
+{  
+    font-family: "Montserrat";
+    line-height:1.5;
+    size: 3.5rem;
+}
+
+h3
+{
+    font-family: "Montserrat-bold";
+}
+p{
+    color:#8f8f8f;
+}
+/* -----------------Nav Bar--------------------- */
+.navbar-brand
+{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-link{
+    padding:18px;
+    font-size: 1.2rem;
+    font-family:"Montserrat-light" ;
+}
+/*------------------------- title -------------------------- */
+
+#title
+{
+    background-color: #ff4c68;
+    color:#fff; 
+}
+.container-fluid
+{
+    padding:3% 15%;
+}
+.title-img
+{
+    /* width:60%; */
+    transform: rotate(25deg);
+    position:absolute;
+    height: 80%;
+    padding-bottom:5%;
+}
+.fluid{
+    position: relative;
+    /* z-index:1; */
+}
+.downloadbuttons{
+    margin:2%;
+}
+
+/*---------------------------------fontawesome symbols---------------------------*/
+.icons{
+     color:  #ef8172;
+    margin-bottom:1rem;
+    /* font-size: 4rem; */
+    /* align-content: center; */
+}
+.icons:hover
+{
+    color: #ff4c68; 
+    
+}
+/* -----------------------------feature box--------------------------------------*/
+.feature-box
+{
+    text-align:center; 
+   
+} 
+.fluid
+{    
+   padding:10%;
+   justify-content: center;
+   background-color:#ffffff;
+}
+#features
+{
+    position:relative;
+    z-index: 1;
+}
+
+/* -------------------------------- TESTIMONIAL SECTION -----------------------------*/
+#testimonials
+{
+   padding:7% 15%;
+   text-align:center;
+   background-color:#ef8172;
+}
+.testimonial-img
+{
+    width:10%;
+    border-radius:100%;
+    margin:8%;
+}
+.testimonial-text
+{
+    font-family:"Montserrat-bold";
+    color:white;
+    font-size: 3rem;
+}
+#press
+{
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3%;   
+    
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+.press-logo
+{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+
+/* ---------------------------------Pricicng-section -----------------------------------------*/
+.price-heading{
+
+    color: black;
+    text-align: center;
+}
+#pricing
+{
+    padding:7%;
+}
+.cardstyle{
+    margin:1rem;
+}
+.card-header
+{   
+    background-color:#8f8f8f; 
+}
+
+/* -------------------------------------Download section---------------------------------- */
+#cta
+{
+    background-color: #ff4c68;
+    padding:8%;
+    text-align:center;
+    color: #fff;
+    
+}
+.cta-heading{
+    font-family: "Montserrat-black";
+    font-size: 3.5rem;
+}
+
+
+/* -----------------------------------Footer section------------------------------------ */
+#footer
+{    background-color: #fff;
+    text-align: center;
+    padding:3%;
+}
+.socialicon
+{
+    margin:1.5%;
+}
+
+
+@media (max-width:1028px)
+{   #title
+    {
+        text-align: center;
+    }
+    .title-img{ position:static;
+                transform: rotate(0);              
+             }
+}
+
